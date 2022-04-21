@@ -6,7 +6,7 @@ To implement the Rails Application, the following command line should be execute
 
 `rails generate model request_handler username pwd prodID tokenID`
 
-Since the Ruby Application uses puts and gets statements for i/o handling, the Rails Application uses
+Since the Ruby Application uses `puts` and `gets` statements for i/o handling, the Rails Application uses
 `index.html.erb` of the model and replaces the statements with form fields using
 Embedded Ruby.
 
